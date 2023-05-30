@@ -5,3 +5,60 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.error-text, .error-icon {
+    display: none;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#intro {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+    padding: 100px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 30px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.left-coluna {
+    flex: 1;
+    margin-bottom: 50px;
+}
+
+.left-coluna h1 {
+    color: white;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 15px;
+}
+
+.left-coluna p {
+   color: white;
+   font-size: 1.1rem;
+   line-height: 1.9rem; 
+} 
+
+.right-coluna {
+    flex: 1;
+}
+
+.right-coluna .top-box {
+    background-color: hsl(48, 32%, 49%) ;
+}
