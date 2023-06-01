@@ -60,5 +60,50 @@ html {
 }
 
 .right-coluna .top-box {
-    background-color: hsl(48, 32%, 49%) ;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    padding: 15px 90px;
+    border-radius: 15px;
+    box-shadow: 0 7px hsl(249, 10%, 26%, 0.404);
+    margin-bottom: 30px;
 }
+
+.right-coluna .top-box p {
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+}
+
+.right-coluna .top-box p span {
+    font-weight: 700;
+}
+
+.right-coluna .form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 7px hsl(249, 10%, 26%, 0.404);
+}
+
+.field-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.right-coluna label {
+    display: none;
+}
+
+.right-coluna input {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    border: 1.3px solid hsl(246, 25%, 77%);
+    padding-left: 20px;
+    outline: none;
+    color: hsl(249, 10%, 26%);
+    font-family: 'Poppins';
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
