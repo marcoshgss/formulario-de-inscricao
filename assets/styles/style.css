@@ -146,8 +146,7 @@ html {
 }
 
 .error-icon {
-
-    position: absolute;
+ position: absolute;
     top: 28%;
     right: 20px;
 }
@@ -158,4 +157,54 @@ html {
     font-style: italic;
     color: hsl(0, 100%, 74%);
     font-weight: 500;
+}
+
+/*PARTE DA RESPONSIVIDADE*/
+@media only screen and (min-width: 1000px) {
+    #intro {
+        background-image: url(/images/bg-intro-desktop.png);
+    }
+
+    .container {
+        flex-direction: row;
+    }
+
+    .left-coluna {
+        text-align: left;
+        padding-right: 50px;
+    }
+
+    .left-coluna h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .left-coluna p {
+        font-size: 1.1rem;
+    }
+
+    .right-coluna {
+        min-width: 500px;
+    }
+
+    .right-coluna .top-box p {
+        font-size: 1.1rem;
+    }
+
+    .right-coluna .top-box {
+        padding: 20px;
+    }
+
+    .right-coluna .form-container {
+        padding: 40px;
+    }
+
+    .right-coluna input, .right-coluna input::placeholder {
+        font-size: 1.5rem;
+    }
+
+    .right-coluna .form-footer {
+        margin-top: 20px;
+        font-size: .7rem;
+    }
 }
