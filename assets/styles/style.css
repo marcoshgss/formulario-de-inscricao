@@ -10,6 +10,14 @@
     display: none;
 }
 
+.field-group.error .error-text, .field-group.error .error-icon {
+    display: block;
+}
+
+.field-group.error input {
+    border: 2px solid hsl(0, 100%, 74%);
+}
+
 html {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
@@ -100,7 +108,6 @@ html {
     border-radius: 8px;
     border: 1.3px solid hsl(246, 25%, 77%);
     padding-left: 20px;
-    outline: none;
     color: hsl(249, 10%, 26%);
     font-family: 'Poppins';
     font-size: 1.1rem;
